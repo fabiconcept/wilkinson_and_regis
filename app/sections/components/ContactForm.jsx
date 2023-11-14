@@ -47,7 +47,7 @@ export default function ContactForm() {
                 ></textarea>
                 <span className="whitespace-nowrap text-xs absolute top-[-1.25rem] opacity-50 peer-placeholder-shown:text-sm peer-placeholder-shown:top-1 pointer-events-none">Message</span>
             </div>
-            <div className="p-3 px-6 bg-primary-heavy text-sm rounded-lg cursor-pointer active:scale-90 w-fit flex gap-2 items-center">
+            <div className="p-3 px-4 bg-primary-heavy text-sm rounded-lg cursor-pointer active:scale-90 w-fit flex gap-2 items-center">
                 Submit <FaArrowUp className="rotate-45" />
             </div>
         </section>

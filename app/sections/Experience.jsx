@@ -3,7 +3,7 @@ import { CiBookmarkMinus } from "react-icons/ci";
 
 export default function Experience() {
     return (
-        <section className="relative lg:flex sm:px-24 px-12 py-8 lg:justify-normal justify-center max-[800px]:flex-wrap items-center after:absolute after:h-[25rem] after:aspect-square after:rounded-full after:bg-primary-lightest after:top-2/3 sm:after:block after:hidden after:blur-[120px] after:-z-[1] after:-translate-y-1/2 after:sm:opacity-10 after:opacity-40 after:animate-pulse before:absolute before:h-[25rem] before:aspect-square before:rounded-full before:bg-primary-soft before:top-[10rem] sm:before:block before:hiddenbefore:right-0 before:blur-[120px] before:-z-[1] before:-translate-y-1/2 before:sm:opacity-20 before:opacity-40" id="about">
+        <section className="relative lg:flex sm:px-24 px-12 py-8 lg:justify-normal justify-center max-[800px]:flex-wrap items-center after:absolute after:h-[25rem] after:aspect-square after:rounded-full after:bg-primary-lightest after:top-2/3 sm:after:block after:hidden after:blur-[120px] after:-z-[1] after:-translate-y-1/2 after:sm:opacity-10 after:opacity-40 after:animate-pulse before:absolute before:h-[25rem] before:aspect-square before:rounded-full before:bg-primary-soft before:top-[10rem] sm:before:block before:hidden before:right-0 before:blur-[120px] before:-z-[1] before:-translate-y-1/2 before:sm:opacity-20 before:opacity-40" id="about">
             <div className="min-w-[20rem] md:w-[37rem] w-full aspect-square rounded-xl overflow-hidden relative bg-white">
                 <Image
                     src={"https://sanydelw.sirv.com/Images/ricardo-gomez-angel-YwVBpx4Wbag-unsplash.jpg"}
