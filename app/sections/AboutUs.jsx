@@ -14,6 +14,7 @@ export default function AboutUs() {
                             structuring. His strong passion for people along with his skill set allows him to produce exceptional
                             results for his clients. In his free time he enjoys cooking, fitness training, and supporting the Falcons,
                             Hawks, and Braves.
+
                         </span>
                     </div>
                     <div className="min-h-[20rem] aspect-square grid place-items-center overflow-hidden rounded-xl border-[5px] dark:border-white/50 border-black/50 w-full">
