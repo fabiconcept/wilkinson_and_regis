@@ -49,8 +49,8 @@ export default function AboutUs() {
                             acquisitions and investments. Vin has seamlessly shifted his expertise into the world of connecting
                             people and creating valuable investment opportunities.His experience allows him to see beyond the
                             numbers and produce extraordinary results. Beyond the business front, Vin enjoys exploring
-                            Atlanta's diverse culinary scene, attending local performances, and passionately supporting the
-                            Falcons, Braves, and Hawks. His philosophy isn't just about transactions; he's about fostering
+                            Atlanta&apos;s diverse culinary scene, attending local performances, and passionately supporting the
+                            Falcons, Braves, and Hawks. His philosophy isn&apos;t just about transactions; he&apos;s about fostering
                             genuine connections and bringing an authentic approach to both professional dealings and personal
                             interests.
                         </span>
