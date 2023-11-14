@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function AboutUs() {
     return (
-        <section className="w-full py-12 sm:px-24 px-12 flex flex-col items-center gap-12 mb-8">
-            <span className="sm:text-4xl lg:text-3xl text-xl text-center font-semibold">Get to know us <abbr title="Wilkinson & Regis" className="text-primary-light cursor-pointer no-underline text-center">W&R</abbr></span>
-            <section className="flex items-center flex-wrap gap-24 w-full justify-center">
-                <div className="flex flex-col items-center text-center flex-1 min-w-[15rem] gap-8">
-                    <div className="grid gap-6 sm:text-base text-sm">
+        <section className="w-full py-12 sm:px-24 px-6 flex flex-col items-center gap-12 mb-8">
+            <span className="sm:text-4xl lg:text-3xl text-3xl text-center font-semibold">Get to know us <abbr title="Wilkinson & Regis" className="text-primary-light cursor-pointer no-underline text-center">W&R</abbr></span>
+            <section className="flex flex-wrap gap-24 w-full justify-center">
+                <div className="flex flex-col items-center flex-1 min-w-[15rem] gap-8">
+                    <div className="grid gap-6 sm:text-xl text-base">
                         <span className="sm:text-2xl text-xl text-primary-light uppercase">Chris Wilkinson</span>
                         <span>
                             I&apos;m <span className="text-primary-light">Chris Wilkinson</span> born and raised in Stone Mountain, GA. For the last 7 years his enthusiasm and
@@ -29,7 +29,7 @@ export default function AboutUs() {
                         />
                     </div>
                 </div>
-                <div className="flex sm:flex-col flex-col-reverse items-center text-center flex-1 min-w-[15rem] gap-8">
+                <div className="flex sm:flex-col flex-col-reverse items-center flex-1 min-w-[15rem] gap-8">
                     <div className="min-h-[20rem] aspect-square grid place-items-center overflow-hidden rounded-xl border-[5px] dark:border-white/50 border-black/50 w-full">
 
                         <Image
@@ -42,7 +42,7 @@ export default function AboutUs() {
                             height={1000}
                         />
                     </div>
-                    <div className="grid gap-6">
+                    <div className="grid gap-6 sm:text-xl text-base">
                         <span className="sm:text-2xl text-xl text-primary-light uppercase">Vin Wilkinson</span>
                         <span>
                             I&apos;m <span className="text-primary-light">Vin Wilkinson</span>, an entrepreneur rooted in Atlanta with over eight years experience in real estate
