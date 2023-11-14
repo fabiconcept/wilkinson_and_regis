@@ -23,7 +23,7 @@ export default function HeroSection() {
             <section className="flex-1 relative z-10">
                 <div className="sm:text-[4rem] text-white lg:leading-[4rem] leading-[3rem] text-[3rem] sm:max-w-[28rem] max-w-[20rem] font-semibold mb-8">
                     <span className="relative after:w-12 after:z-[-1] after:right-[-2rem] after:top-1 after:h-12 after:rounded-full after:bg-[linear-gradient(30deg,#f4e1c5,#ee9003_95%)] after:absolute after:animate-bounce">We buy houses </span>
-                    <span>and apartment complex complexes </span>
+                    <span>and apartment complex.</span>
                 </div>
                 <div className="text-xl opacity-60 sm:max-w-[27rem] max-w-[20rem] my-4 text-white">
                     Secure the strongest offer on your distressed home or apartment complex.
@@ -45,7 +45,7 @@ export default function HeroSection() {
                 </section>
             </section>
             {/* Image Section */}
-            <section className="flex-1 min-w-[20rem] z-10">
+            <section className="flex-1 min-w-[15rem] z-10">
                 <div className="relative w-full rounded-t-full border-[10px] dark:border-white/80">
                     <Image
                         src={"https://sanydelw.sirv.com/Images/pierre-chatel-innocenti--u4ddXsjULQ-unsplash.jpg"}

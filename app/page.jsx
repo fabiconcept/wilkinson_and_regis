@@ -12,7 +12,7 @@ import WhySelling from "./sections/WhySelling";
 
 export default function page() {
     return (
-        <main className="w-full">
+        <main className="w-screen overflow-x-hidden">
             <NavSection />
             <HeroSection />
             <MidSection />
