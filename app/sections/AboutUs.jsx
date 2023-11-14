@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
     return (
-        <section className="w-full py-12 sm:px-24 px-12 flex flex-col items-center gap-12 mb-8">
+        <section className="w-full py-12 sm:px-24 px-6 flex flex-col items-center gap-12 mb-8">
             <span className="sm:text-4xl lg:text-3xl text-3xl text-center font-semibold">Get to know us <abbr title="Wilkinson & Regis" className="text-primary-light cursor-pointer no-underline text-center">W&R</abbr></span>
             <section className="flex items-center flex-wrap gap-24 w-full justify-center">
                 <div className="flex flex-col items-center text-center flex-1 min-w-[15rem] gap-8">
