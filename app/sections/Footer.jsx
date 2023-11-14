@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
 
 export default function Footer() {
     return (
-        <footer className="px-12 flex flex-wrap gap-4 items-center justify-between mt-12 py-4 border-t dark:border-white/20 border-black/10">
+        <footer className="px-6 flex flex-wrap gap-4 items-center justify-between mt-12 py-4 border-t dark:border-white/20 border-black/10">
             <div className="my-6 min-w-[10rem] flex-1">
                 <div className="flex items-center gap-2">
                     <Image

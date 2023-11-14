@@ -38,7 +38,7 @@ export default function FAQs() {
         <Faqcontext.Provider value={{ isColapsed, setIsColapsed }}>
             <section className="flex-1 flex flex-col">
                 <span className="text-primary-heavy text-2xl mb-6">Guaranteed Offer Frequently Asked Questions</span>
-                <div className="flex flex-col gap-4 items-center mt-8 w-full mx-3">
+                <div className="flex flex-col gap-4 items-center mt-8 w-full sm:mx-3">
                     {faqsContents.map((items, index)=> (
                         <Faq key={items.id} id={index} q={items.q} content={items.content} />
                     ))}
