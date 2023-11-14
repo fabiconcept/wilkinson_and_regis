@@ -1,3 +1,4 @@
+import AboutUs from "./sections/AboutUs";
 import ContactSection from "./sections/ContactSection";
 import Experience from "./sections/Experience";
 import Footer from "./sections/Footer";
@@ -21,6 +22,7 @@ export default function page() {
             <WhySelling />
             <ReadyForYourOffer />
             <GuaranteedFAQ />
+            <AboutUs />
             <ReasonsSection />
             <ContactSection />
             <Footer />
