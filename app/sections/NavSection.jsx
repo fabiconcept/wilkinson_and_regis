@@ -43,7 +43,7 @@ export default function NavSection() {
                     <Link onClick={()=>setCurrentNav(2)} href={"#whySelling"} className={`no-underline hover:scale-105 relative lg:flex hidden cursor-pointer dark:text-white px-8 list-none active:scale-90 ${currentNav === 2 ? activeClass : activeClean}`}>Why W<span className="text-primary-soft">&</span>R</Link>
                     <Link onClick={()=>setCurrentNav(3)} href={"#guaranteedFAQ"} className={`no-underline hover:scale-105 relative lg:flex hidden cursor-pointer dark:text-white px-8 list-none active:scale-90 ${currentNav === 3 ? activeClass : activeClean}`}>FAQ</Link>
                     <Link onClick={()=>setCurrentNav(4)} href={"#contact"} className={`no-underline hover:scale-105 relative lg:flex hidden cursor-pointer dark:text-white px-8 list-none active:scale-90 ${currentNav === 4 ? activeClass : activeClean}`}>Feedback</Link>
-                    <Link href={"tel:+14046615581"} className="p-4 sm:px-6 rounded sm:bg-primary-heavy font-light lg:text-white active:scale-95 cursor-pointer select-none text-lg flex items-center gap-2">
+                    <Link href={"tel:+14046615581"} className="p-4 sm:px-4 rounded sm:bg-primary-heavy font-light lg:text-white active:scale-95 cursor-pointer select-none text-lg flex items-center gap-2">
                         404-661-5581
                         <span>
                             <FaPhone className="text-white mb-[-6px] text-sm sm:block hidden" />

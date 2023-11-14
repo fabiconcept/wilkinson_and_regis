@@ -9,11 +9,11 @@ export default function MobileNav() {
     const activeClean = 'after:absolute after:h-[1px] after:bottom-[-0.15rem] after:left-0 after:rounded-full';
 
     const colaspeNav = (tag) =>{
-        setIsColapsed(!isColapsed)
+        setIsColapsed(!isColapsed);
         setCurrentNav(tag);
     }
     return (
-        <section className={`${isColapsed ? "right-0" : "right-[-80vw]"} fixed top-0 h-screen w-[80vw] bg-black/80 backdrop-blur-[10px] z-[100] overflow-hidden shadow-xl sm:hidden grid place-items-center`} >
+        <section className={`${isColapsed ? "w-[80vw]" : "w-0"} fixed top-0 h-screen bg-black/80 backdrop-blur-[10px] z-[100] overflow-hidden shadow-xl sm:hidden grid place-items-center`} >
             <div className="grid text-xl gap-3 text-white">
                 <Link onClick={()=>colaspeNav(0)} href={"#steps"} className={`${currentNav === 0 ? activeClass : activeClean} no-underline relative cursor-pointer dark:text-white px-8 list-none active:scale-90 hover:scale-110`}>Services</Link>
                 <Link onClick={()=>colaspeNav(1)} href={"#about"} className={`${currentNav === 1 ? activeClass : activeClean} no-underline relative cursor-pointer dark:text-white px-8 list-none active:scale-90 hover:scale-110`}>Abouts Us</Link>

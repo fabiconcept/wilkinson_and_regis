@@ -43,7 +43,7 @@ export default function ReadyForYourOffer({type}) {
             <div className='pointer-events-none leave absolute top-0 left-0 h-full w-full bg-black/20 z-[1]'></div>
             <div className='z-10 shadow-2xl sm:w-[35rem] w-[18rem] h-fit flex flex-col items-center py-12 gap-8 bg-primary-heavy text-white'>
                 {<span className='lg:text-3xl text-xl z-30'>Ready For Your Offer?</span>}
-                <Link href={"#top"} className='lg:px-6 p-3 border border-white cursor-pointer hover:bg-white active:scale-90 z-30'>
+                <Link href={"#top"} className='lg:px-4 p-3 border border-white cursor-pointer hover:bg-white active:scale-90 z-30 group'>
                     <span className='z-20 group-hover:text-primary-heavy'>Get my offer</span>
                 </Link>
             </div>

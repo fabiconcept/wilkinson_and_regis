@@ -11,7 +11,7 @@ export default function Search() {
                 placeholder="Enter address..."
                 className="flex-1 py-3 text-md bg-transparent border-none outline-none"
             />
-            <div className="p-3 lg:px-6 bg-primary-heavy rounded-lg cursor-pointer active:scale-90 font-semibold">
+            <div className="p-3 lg:px-4 bg-primary-heavy rounded-lg cursor-pointer active:scale-90 font-semibold">
                 <span className="lg:block hidden">Get my offer</span>
                 <span className="block lg:hidden">
                     <FaSearch />

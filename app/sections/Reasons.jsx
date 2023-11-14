@@ -34,7 +34,7 @@ export default function ReasonsSection() {
             <section className="flex flex-col items-center my-24" id="reasons">
                 <span className="sm:text-4xl text-3xl text-center">Reasons to sell with <abbr title="Wilkinson & Regis" className="text-primary-light cursor-pointer no-underline text-center">W&R</abbr></span>
 
-                <section className="flex gap-2 h-[24rem] sm:px-24 px-12 my-8">
+                <section className="flex gap-2 h-[24rem] sm:px-24 px-6 my-8">
                     {reasonContent.map((reason, index) => (
                         <Reason key={reason.id} id={index} img={reason.img} text={reason.text} />
                     ))}
