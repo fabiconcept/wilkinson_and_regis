@@ -20,7 +20,7 @@ export default function HeroSection() {
 
             </div>
             {/* text section */}
-            <section className="flex-1 relative z-10">
+            <section className="flex-1 relative z-30">
                 <div className="sm:text-[4rem] text-white lg:leading-[4rem] leading-[3rem] text-[3rem] sm:max-w-[28rem] max-w-[20rem] font-semibold mb-8">
                     <span className="relative after:w-12 after:z-[-1] after:right-[-2rem] after:top-1 after:h-12 after:rounded-full after:bg-[linear-gradient(30deg,#f4e1c5,#ee9003_95%)] after:absolute after:animate-bounce">We buy houses </span>
                     <span>and apartment complex.</span>
