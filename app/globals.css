@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dancing+Script&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  transition: 150ms ease-in-out;
+  scroll-behavior: smooth;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+*::selection {
+  background-color: #F1af4c;
+  color: black;
+}
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 225, 225, 225;
   --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 18, 18, 18;
+    --background-end-rgb: 18, 18, 18;
   }
 }
 
@@ -24,4 +37,30 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    overflow-x: hidden;
+}
+
+.script-text {
+  font-family: 'Dancing Script', cursive;
+}
+
+.para {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: unset;
+}
+
+.para div:not(.leave) {
+  transform: translateZ(25px) rotateY(-5deg);
+  animation: shake 3s linear infinite;
+  transform-origin: 50% 100%;
+}
+
+.expand {
+  transition: max-height 2s ease;
+}
+@keyframes shake {
+  50% {
+    transform: translateZ(25px) rotateY(0deg);
+  }
 }
