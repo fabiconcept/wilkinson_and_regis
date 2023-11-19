@@ -101,21 +101,21 @@ export default function FormModal() {
                     </section>
 
                     {currentPage !== 2 &&<section className="flex flex-wrap gap-4 items-stretch mt-8">
-                        <div onClick={() => handleBack()} className={`p-3 sm:px-4 flex-1 justify-center border border-black font-light text-primary-heavy font-semibold select-none flex items-center gap-2 ${currentPage === 1 ? "hover:scale-105 hover:bg-primary-heavy active:scale-95 cursor-pointer dark:hover:text-black hover:text-white" : "opacity-30"}`}>
+                        <div onClick={() => handleBack()} className={`p-3 sm:px-4 flex-1 justify-center border border-black text-black font-semibold select-none flex items-center gap-2 ${currentPage === 1 ? "hover:scale-105 hover:bg-primary-heavy active:scale-95 cursor-pointer dark:hover:text-black hover:text-white" : "opacity-70"}`}>
                             <span>
-                                <FaAngleLeft className="text-black text-xl sm:block hidden" />
+                                back
                             </span>
                         </div>
-                        <div onClick={() => handleNext()} className={`p-3 sm:px-4 flex-1 justify-center border border-black font-light text-primary-heavy font-semibold select-none flex items-center gap-2 ${canProceed ? "hover:scale-105 hover:bg-primary-heavy active:scale-95 cursor-pointer dark:hover:text-black hover:text-white" : "opacity-30"}`}>
+                        <div onClick={() => handleNext()} className={`p-3 sm:px-4 flex-1 justify-center border border-black text-black font-semibold select-none flex items-center gap-2 ${canProceed ? "hover:scale-105 bg-primary-heavy active:scale-95 cursor-pointer dark:hover:text-black hover:text-white" : "opacity-70"}`}>
                             {currentPage === 0 ? <span>
-                                <FaAngleRight className="text-black text-xl sm:block hidden" />
+                                next
                             </span>: 
                                 <span>Submit</span>
                             }
                         </div>
                     </section>}
                     {currentPage === 2 && <section className="flex flex-wrap gap-4 items-stretch mt-8">
-                        <div onClick={() => handleBack()} className={`p-3 sm:px-4 flex-1 justify-center border border-black font-light text-primary-heavy font-semibold select-none flex items-center gap-2 hover:scale-105 hover:bg-primary-heavy active:scale-95 cursor-pointer dark:hover:text-black hover:text-white`}>
+                        <div onClick={() => handleBack()} className={`p-3 sm:px-4 flex-1 justify-center border border-black text-black font-semibold select-none flex items-center gap-2 hover:scale-105 bg-primary-heavy active:scale-95 cursor-pointer dark:hover:text-black hover:text-white`}>
                             <span>
                                 close
                             </span>

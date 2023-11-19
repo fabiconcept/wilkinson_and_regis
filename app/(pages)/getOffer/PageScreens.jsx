@@ -23,7 +23,7 @@ export default function PageScreens() {
             setAddressText(addressText);
             return;
         }else{
-            router.back();
+            router.push("/");
         }
     }, []);
 
