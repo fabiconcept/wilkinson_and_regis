@@ -13,7 +13,7 @@ import WhySelling from "./sections/WhySelling";
 
 export default function page() {
     return (
-        <main className="w-screen overflow-x-hidden">
+        <main className="w-screen overflow-x-hidden relative">
             <NavSection />
             <HeroSection />
             <MidSection />

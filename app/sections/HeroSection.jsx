@@ -23,24 +23,24 @@ export default function HeroSection() {
             <section className="flex-1 relative z-30">
                 <div className="sm:text-[4rem] text-white lg:leading-[4rem] leading-[3rem] text-[3rem] sm:max-w-[28rem] max-w-[20rem] font-semibold mb-8">
                     <span className="relative after:w-12 after:z-[-1] after:right-[-2rem] after:top-1 after:h-12 after:rounded-full after:bg-[linear-gradient(30deg,#f4e1c5,#ee9003_95%)] after:absolute after:animate-bounce">We buy houses </span>
-                    <span>and apartment complex.</span>
+                    <span>and apartment complexes.</span>
                 </div>
                 <div className="text-xl opacity-60 sm:max-w-[27rem] max-w-[20rem] my-4 text-white">
-                    Secure the strongest offer on your distressed home or apartment complex.
+                    Secure the strongest offer on your home or apartment complex.
                 </div>
                 <Search />
                 <section className="grid grid-cols-3 pb-8 text-white">                
                     <div className="flex flex-col items-center">
                         <span className="sm:text-4xl text-2xl">9k<span className="text-primary-heavy">+</span></span>
-                        <div className="max-w-[5rem] sm:text-base text-sm text-center opacity-60">Premium Product</div>
+                        <div className="max-w-[5rem] sm:text-base text-sm text-center opacity-60">Offers sent</div>
                     </div>    
                     <div className="flex flex-col items-center">
                         <span className="sm:text-4xl text-2xl">2k<span className="text-primary-heavy">+</span></span>
-                        <div className="max-w-[5rem] sm:text-base text-sm text-center opacity-60">Happy Customer</div>
+                        <div className="max-w-[5rem] sm:text-base text-sm text-center opacity-60">Happy Customers</div>
                     </div>    
                     <div className="flex flex-col items-center">
                         <span className="sm:text-4xl text-2xl">28<span className="text-primary-heavy">+</span></span>
-                        <div className="max-w-[5rem] sm:text-base text-sm text-center opacity-60">Happy Customer</div>
+                        <div className="max-w-[5rem] sm:text-base text-sm text-center opacity-60">Years of experience</div>
                     </div>    
                 </section>
             </section>
@@ -53,6 +53,7 @@ export default function HeroSection() {
                         priority
                         className="w-full sm:h-[43rem] h-[35rem] rounded-t-full mb-[-5rem] rounded-bl-xl"
                         width={1000}
+                        alt="backgraoud faded"
                         height={1000}
                     />
                 </div>

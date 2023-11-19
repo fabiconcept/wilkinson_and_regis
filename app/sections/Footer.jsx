@@ -19,7 +19,8 @@ export default function Footer() {
                     <div className="uppercase sm:text-lg leading-4 max-w-[6rem] font-semibold">Wilkinson <span className="text-primary-light">&</span> Regis</div>
                 </div>
                 <div className="mt-3 ml-3 max-w-[15rem]">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolor exercitationem voluptatem velit alias eos ipsum enim minus animi error.
+                    <span className="text-primary-soft">Wilkinson & Regis</span> is a family owned and operated
+                    real estate investment firm. We look forward to working with you to achieve your goals
                 </div>
             </div>
 

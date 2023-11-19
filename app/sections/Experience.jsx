@@ -36,7 +36,7 @@ export default function Experience() {
                     <span className="lg:text-5xl text-3xl">
                         Experience New & Be Strong in Real Estate
                     </span>
-                    <span className="lg:text-xs text-sm grid gap-4">
+                    <span className="lg:text-sm grid gap-4">
                         <p>At Wilkinson & Regis, we understand that selling your home is more than a transaction; it&apos;s a significant moment in your life. Choose us as your trusted partner, and experience a seamless journey guided by expertise and a commitment to your goals.</p>
 
                         <p>Our dedicated team, led by seasoned professionals, is here to amplify the selling process. From strategic marketing to leveraging our extensive network, we ensure your property receives the attention it deserves. Sell with confidence, sell with Wilkinson & Regis – where your home meets its perfect match.</p>
