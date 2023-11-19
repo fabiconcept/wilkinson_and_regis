@@ -9,6 +9,7 @@ export default function Search() {
     const { getCookie, setCookie, updateCookie } = useCookies();
     const router = useRouter();
     const [address, setAddress] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
     const [currIndex, setCurrIndex] = useState(null);
     const { suggestions: { status, data, loading }, value, ready, setValue, clearSuggestions, } = usePlacesAutocomplete({
         cache: 24 * 60 * 60,
@@ -50,7 +51,7 @@ export default function Search() {
         const parameter = {
             address: address
         }
-
+        setIsLoading(true);
         await getGeocode(parameter)
             .then((results) => {
                 const { lat, lng } = getLatLng(results[0]);
@@ -92,7 +93,7 @@ export default function Search() {
                     <input
                         type="text"
                         placeholder="Enter address..."
-                        className="w-full py-3 text-md bg-transparent border-none outline-none"
+                        className="w-full py-3 text-md bg-transparent border-none outline-none text-white"
                         value={value}
                         disabled={!ready}
                         onKeyUp={handleKeyDown}
@@ -119,11 +120,26 @@ export default function Search() {
                         </ul>
                     )}
                 </div>
-                {<div className={`${address ? "cursor-pointer active:scale-90" : "opacity-50 cursor-not-allowed"} bg-primary-heavy p-3 lg:px-4 rounded-lg font-semibold`} onClick={()=> handleSubmit()}>
-                    <span className="lg:block hidden">Get my offer</span>
-                    <span className="block lg:hidden">
+                {<div className={`${address ? loading || isLoading ? "opacity-50 cursor-not-allowed" : "cursor-pointer active:scale-90" : "opacity-50 cursor-not-allowed"} bg-primary-heavy p-3 lg:px-4 rounded-lg font-semibold`} onClick={()=> handleSubmit()}>
+                    {!isLoading && <span className="lg:block hidden">Get my offer</span>}
+                    {isLoading && <svg 
+                        width="24" 
+                        height="24" 
+                        viewBox="0 0 24 24" 
+                        xmlns="http://www.w3.org/2000/svg"
+                    >        
+                        <path 
+                            d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" 
+                            opacity=".25" 
+                        />
+                        <path 
+                            d="M12,4a8,8,0,0,1,7.89,6.7A1.53,1.53,0,0,0,21.38,12h0a1.5,1.5,0,0,0,1.48-1.75,11,11,0,0,0-21.72,0A1.5,1.5,0,0,0,2.62,12h0a1.53,1.53,0,0,0,1.49-1.3A8,8,0,0,1,12,4Z" 
+                            className="spinner_z9k8" 
+                        />
+                    </svg>}
+                    {!isLoading && <span className="block lg:hidden">
                         <FaSearch />
-                    </span>
+                    </span>}
                 </div>}
             </section>
         </>

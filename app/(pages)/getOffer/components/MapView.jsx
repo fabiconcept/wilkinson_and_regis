@@ -1,8 +1,8 @@
 import { GoogleMapsEmbed } from '@next/third-parties/google';
 import { useMemo } from 'react';
 
-const myApi = process.env.NEXT_PUBLIC_MAPS_API_KEY;
-export default function MapView({coordinates}) {
+export default function MapView({coordinates, myApi}) {
+    
     
     return (
         <>
