@@ -9,6 +9,7 @@ import NavSection from "./sections/NavSection";
 import ReadyForYourOffer from "./sections/ReadyForYourOffer";
 import ReasonsSection from "./sections/Reasons";
 import StepsSection from "./sections/StepsSection";
+import WholesaleSection from "./sections/WholesaleSection";
 import WhySelling from "./sections/WhySelling";
 
 export default function page() {
@@ -23,6 +24,7 @@ export default function page() {
             <ReadyForYourOffer />
             <GuaranteedFAQ />
             <AboutUs />
+            <WholesaleSection />
             <ReasonsSection />
             <ContactSection />
             <Footer />
