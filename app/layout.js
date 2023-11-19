@@ -2,7 +2,7 @@ import { Quicksand  } from 'next/font/google'
 import './globals.css'
 
 const inter = Quicksand({ subsets: ['latin'] });
-const myApi = process.env.NEXT_PUBLIC_MAPS_API_KEY;
+const myApi = process.env.NEXT_PUBLIC_VERCEL_MAPS_API_KEY;
 
 export const metadata = {
     title: 'Wilkinson & Regis | Real Estate Agency',
