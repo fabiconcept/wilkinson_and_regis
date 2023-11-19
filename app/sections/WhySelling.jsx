@@ -11,16 +11,16 @@ export default function WhySelling() {
                             <span>Selling to <span className="text-primary-soft">Wilkinson & Regis</span></span>
                         </li>
                         <li className="w-full">
-                            <span className="flex items-center justify-between gap-2">Competitive cash offer in 24 hours <FaCheck className="text-sm text-green-500" /></span>
+                            <span className="flex items-center justify-between gap-2">Strong cash offer within 48 hours <FaCheck className="text-sm text-green-500" /></span>
                         </li>
                         <li className="w-full">
-                            <span className="flex items-center justify-between gap-2">No listing, prep work or showing <FaCheck className="text-sm text-green-500" /></span>
+                            <span className="flex items-center justify-between gap-2">No listing, prep work or showings <FaCheck className="text-sm text-green-500" /></span>
                         </li>
                         <li className="w-full">
-                            <span className="flex items-center justify-between gap-2">Skip the repair work <FaCheck className="text-sm text-green-500" /></span>
+                            <span className="flex items-center justify-between gap-2">Avoid 6% agent fees and repairs <FaCheck className="text-sm text-green-500" /></span>
                         </li>
                         <li className="w-full">
-                            <span className="flex items-center justify-between gap-2">Choose any close date from 10-60 days <FaCheck className="text-sm text-green-500" /></span>
+                            <span className="flex items-center justify-between gap-2">Choose your close date from 21-60 days <FaCheck className="text-sm text-green-500" /></span>
                         </li>
                     </div>
                 </div>
@@ -28,19 +28,19 @@ export default function WhySelling() {
                 <div className="flex items-center flex-col list-none gap-4">
                     <div className="flex flex-col items-start gap-8">
                         <li className="pl-6 font-semibold">
-                            <span>Selling to <span className="text-primary-soft">Wilkinson & Regis</span></span>
+                            <span>Traditional Home Sale</span>
                         </li>
                         <li className="w-full">
-                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Competitive cash offer in 24 hours</span>
+                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Risk of buyer financing delaying closing</span>
                         </li>
                         <li className="w-full">
-                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> No listing, prep work or showing</span>
+                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Disruptive home staging for open house showings</span>
                         </li>
                         <li className="w-full">
-                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Skip the repair work</span>
+                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Paying agent commission and contractors for repairs</span>
                         </li>
                         <li className="w-full">
-                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Choose any close date from 10-60 days</span>
+                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Uncertain closing time</span>
                         </li>
                     </div>
                 </div>

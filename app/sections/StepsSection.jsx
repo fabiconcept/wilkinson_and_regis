@@ -1,10 +1,10 @@
-import { CiHome, CiMoneyCheck1 } from "react-icons/ci";
+import { CiHome, CiMoneyCheck1, CiReceipt } from "react-icons/ci";
 
 export default function StepsSection() {
     return (
         <section className="flex flex-wrap gap-6 justify-center py-12" id="steps">
             <div className="text-center flex flex-col gap-4 p-8 items-center max-w-[18rem] min-w-[18rem] rounded-lg hover:scale-105 dark:hover:bg-white/5 hover:bg-black/10 bg-black/5 cursor-default">
-                <CiHome className="text-primary-soft text-3xl" />
+                <CiReceipt className="text-primary-soft text-3xl" />
                 <span className="text-xl font-semibold">Get your offer</span>
                 <span className="dark:opacity-50">
                     Receive a competitive cash offer on your home

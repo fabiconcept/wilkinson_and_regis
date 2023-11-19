@@ -4,12 +4,17 @@ export default function AboutUs() {
     return (
         <section className="w-full py-12 sm:px-24 px-6 flex flex-col items-center gap-12 mb-8">
             <span className="sm:text-4xl lg:text-3xl text-3xl text-center font-semibold">Get to know us <abbr title="Wilkinson & Regis" className="text-primary-light cursor-pointer no-underline text-center">W&R</abbr></span>
+            <span className="text-center sm:px-12 px-6 sm:text-lg">
+                Wilkinson & Regis was created in honor of our family
+                heritage. We combined our Father&apos;s last name Wilkinson with our Mother&apos;s maiden name Regis
+                to ensure that every client feels like they are a part of our family
+            </span>
             <section className="flex flex-wrap gap-24 w-full justify-center">
                 <div className="flex flex-col items-center flex-1 min-w-[15rem] gap-8">
                     <div className="grid gap-6 sm:text-xl text-base">
                         <span className="sm:text-2xl text-xl text-primary-light uppercase">Chris Wilkinson</span>
                         <span>
-                            I&apos;m <span className="text-primary-light">Chris Wilkinson</span> born and raised in Stone Mountain, GA. For the last 7 years his enthusiasm and
+                            Meet <span className="text-primary-light">Chris Wilkinson</span> born and raised in Stone Mountain, GA. For the last 7 years his enthusiasm and
                             dedication has led him to becoming an expert in real estate lending, acquisitions, and deal
                             structuring. His strong passion for people along with his skill set allows him to produce exceptional
                             results for his clients. In his free time he enjoys cooking, fitness training, and supporting the Falcons,
@@ -45,7 +50,7 @@ export default function AboutUs() {
                     <div className="grid gap-6 sm:text-xl text-base">
                         <span className="sm:text-2xl text-xl text-primary-light uppercase">Vin Wilkinson</span>
                         <span>
-                            I&apos;m <span className="text-primary-light">Vin Wilkinson</span>, an entrepreneur rooted in Atlanta with over eight years experience in real estate
+                            Meet <span className="text-primary-light">Vin Wilkinson</span>, an entrepreneur rooted in Atlanta with over eight years experience in real estate
                             acquisitions and investments. Vin has seamlessly shifted his expertise into the world of connecting
                             people and creating valuable investment opportunities.His experience allows him to see beyond the
                             numbers and produce extraordinary results. Beyond the business front, Vin enjoys exploring
