@@ -2,9 +2,9 @@ import { FaCheck, FaTimes } from "react-icons/fa";
 
 export default function WhySelling() {
     return (
-        <section className="py-12 sm:px-24 px-12 flex flex-col items-center gap-12 mb-8" id="whySelling">
+        <section className="py-12 sm:px-24 px-6 flex flex-col items-center gap-12 mb-8" id="whySelling">
             <span className="sm:text-4xl lg:text-3xl text-xl text-center font-semibold">Why Selling to <abbr title="Wilkinson & Regis" className="text-primary-light cursor-pointer no-underline text-center">W&R</abbr> is better</span>
-            <div className="flex items-start lg:gap-6 gap-3 relative after:absolute after:h-full after:w-[3px] after:border-dotted after:border-l-[3px] after:opacity-30 after:left-1/2 after:top-10 after:-translate-x-[0.1rem]">
+            <div className="flex items-start lg:gap-6 gap-3 relative after:absolute after:h-full after:w-[3px] after:border-dotted after:border-l-[3px] after:opacity-30 sm:after:left-1/2 after:left-[44%] after:top-10 after:-translate-x-[0.1rem]">
                 <div className="flex items-center flex-col list-none gap-4">
                     <div className="flex flex-col items-end gap-8">
                         <li className="pr-6 font-semibold">

@@ -3,7 +3,7 @@ import Search from "./components/Search";
 
 export default function HeroSection() {
     return (
-        <div className="w-full lg:px-24 max-[940px]:px-12 px-4 sm:pt-56 pt-40 grid sm:grid-cols-2 sm:gap-0 gap-6 grid-cols-1 relative" id="top">
+        <div className="w-full lg:px-24 max-[940px]:px-12 max-[740px]:px-2 sm:pt-56 pt-40 grid sm:grid-cols-2 sm:gap-0 gap-6 grid-cols-1 relative" id="top">
             <div className="absolute top-0 left-0 h-full object-cover w-full grid place-items-center overflow-hidden">
                 <Image
                     src={"https://sanydelw.sirv.com/Images/naomi-hebert-MP0bgaS_d1c-unsplash.jpg"}
@@ -21,11 +21,11 @@ export default function HeroSection() {
             </div>
             {/* text section */}
             <section className="flex-1 relative z-30">
-                <div className="sm:text-[4rem] text-white lg:leading-[4rem] leading-[3rem] text-[3rem] sm:max-w-[28rem] max-w-[20rem] font-semibold mb-8">
+                <div className="max-[740px]:mx-8 sm:text-[4rem] text-white lg:leading-[4rem] leading-[3rem] text-[3rem] sm:max-w-[28rem] max-w-[20rem] font-semibold mb-8">
                     <span className="relative after:w-12 after:z-[-1] after:right-[-2rem] after:top-1 after:h-12 after:rounded-full after:bg-[linear-gradient(30deg,#f4e1c5,#ee9003_95%)] after:absolute after:animate-bounce">We buy houses </span>
                     <span>and apartment complexes.</span>
                 </div>
-                <div className="text-xl opacity-60 sm:max-w-[27rem] max-w-[20rem] my-4 text-white">
+                <div className="max-[740px]:mx-8 text-xl opacity-60 sm:max-w-[27rem] max-w-[20rem] my-4 text-white">
                     Secure the strongest offer on your home or apartment complex.
                 </div>
                 <Search />
