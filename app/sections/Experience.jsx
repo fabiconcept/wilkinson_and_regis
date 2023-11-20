@@ -34,7 +34,7 @@ export default function Experience() {
                 <div className="lg:pl-24 lg:pr-24 pl-14 pr-10 py-8 grid gap-4 relative z-10 text-white">
                     <span className="text-primary-heavy script-text text-2xl">We Offer</span>
                     <span className="lg:text-5xl text-3xl">
-                        Experience New & Be Strong in Real Estate
+                        Experience & Knowledge in Real Estate
                     </span>
                     <span className="lg:text-sm grid gap-4">
                         <p>At Wilkinson & Regis, we understand that selling your home is more than a transaction; it&apos;s a significant moment in your life. Choose us as your trusted partner, and experience a seamless journey guided by expertise and a commitment to your goals.</p>

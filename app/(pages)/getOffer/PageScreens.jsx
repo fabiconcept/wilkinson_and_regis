@@ -4,6 +4,7 @@ import MapPage from "./subPages/mapPage";
 import { useRouter } from "next/navigation";
 import useCookies from "@/customHooks/useCookie";
 import FormModal from "./components/FormModal";
+import { Toaster } from "react-hot-toast";
 
 export const screenContext = React.createContext();
 
@@ -36,6 +37,9 @@ export default function PageScreens() {
             <section className="flex flex-col">
                 <MapPage />
                 {modalOpen && <FormModal />}
+                <Toaster
+                    position="top-center"
+                />
             </section>
         </screenContext.Provider>
     )

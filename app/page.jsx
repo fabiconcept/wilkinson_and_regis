@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import AboutUs from "./sections/AboutUs";
 import ContactSection from "./sections/ContactSection";
 import Experience from "./sections/Experience";
@@ -28,6 +29,9 @@ export default function page() {
             <ReasonsSection />
             <ContactSection />
             <Footer />
+            <Toaster
+                position="bottom-left"
+            />
         </main>
     );
 }
