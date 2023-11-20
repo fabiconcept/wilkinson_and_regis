@@ -31,16 +31,16 @@ export default function WhySelling() {
                             <span>Traditional Home Sale</span>
                         </li>
                         <li className="w-full">
-                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Risk of buyer financing delaying closing</span>
+                            <span className="flex items-center gap-3"><FaTimes className="text-gray-300" /> Risk of buyer financing delaying closing</span>
                         </li>
                         <li className="w-full">
-                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Disruptive home staging for open house showings</span>
+                            <span className="flex items-center gap-3"><FaTimes className="text-gray-300" /> Disruptive home staging for open house showings</span>
                         </li>
                         <li className="w-full">
-                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Paying agent commission and contractors for repairs</span>
+                            <span className="flex items-center gap-3"><FaTimes className="text-gray-300" /> Paying agent commission and contractors for repairs</span>
                         </li>
                         <li className="w-full">
-                            <span className="flex justify-between items-center gap-3"><FaTimes className="text-gray-300" /> Uncertain closing time</span>
+                            <span className="flex items-center gap-3"><FaTimes className="text-gray-300" /> Uncertain closing time</span>
                         </li>
                     </div>
                 </div>
