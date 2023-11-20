@@ -15,9 +15,9 @@ export default function Step04() {
     } = useContext(FormModalContext);
 
     const [phoneNumber, setPhoneNumber] = useState(null);
-    const [timeline, setTimeline] = useState(null);
-    const [wholeSaleValue, setWholeSaleValue] = useState(null);
-    const [cleanNumber, setCleanNumber] = useSanitize()
+    const [timeline, setTimeline] = useState("15-30");
+    const [wholeSaleValue, setWholeSaleValue] = useState("yes");
+    const [cleanNumber, setCleanNumber] = useSanitize();
 
     const phoneNumberDebounce = useDebounce(phoneNumber, 500);
 
@@ -95,8 +95,9 @@ export default function Step04() {
                     type="number"
                     className={`px-3 py-2 bg-transparent w-full outline-none ${generalInformationError[1].phone !== null ? generalInformationError[1].phone ? "border-2 border-red-500" : "border border-green-500" : "border border-black"}`}
                     placeholder="(###) ### ####"
-                    max={10}
                     maxLength={10}
+                    required
+                    name="from_phone"
                     value={phoneNumber}
                     onChange={(e)=>setPhoneNumber(e.target.value)}
                 />
@@ -104,23 +105,26 @@ export default function Step04() {
             <div className="flex flex-col gap-2">
                 <span>Timeline to sell <span  className="text-red-500">*</span></span>
                 <select
+                    name="from_timeline"
+                    required
                     onChange={(e)=>setTimeline(e.target.value)}
                     className="px-3 py-2 bg-transparent w-full border border-black"
                 >
-                    <option value="0">15-30 days</option>
-                    <option value="1">30-60 days</option>
-                    <option value="2">60+ days</option>
+                    <option value="15-30">15-30 days</option>
+                    <option value="30-60">30-60 days</option>
+                    <option value="60+">60+ days</option>
                 </select>
             </div>
             <div className="flex flex-col gap-2">
                 <span>Are you a wholesaler? <span  className="text-red-500">*</span></span>
                 <select 
+                    name="from_whole"
+                    required
                     className="px-3 py-2 bg-transparent w-full border border-black"
                     onChange={(e)=>setWholeSaleValue(e.target.value)}
                 >
-                    <option value="0">Prefer not to say</option>
-                    <option value="1">Yes, i am</option>
-                    <option value="2">No, I am not</option>
+                    <option value="yes">Yes, i am</option>
+                    <option value="no">No, I&apos;m not</option>
                 </select>
             </div>
         </section>

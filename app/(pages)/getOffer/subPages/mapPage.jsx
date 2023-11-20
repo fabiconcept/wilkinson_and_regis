@@ -27,7 +27,7 @@ export default function MapPage() {
             <div className="line-clamp-2 text-center max-w-[20rem ] text-2xl font-semibold px-8">{addressText}</div>
             <div className="flex flex-wrap gap-4 items-center sm:w-[30rem] w-full px-4">
                 <div onClick={() => handleCancel()} className="p-4 sm:px-4 flex-1 justify-center hover:scale-105 hover:bg-primary-heavy border border-primary-heavy font-light dark:hover:text-black hover:text-white text-primary-heavy font-semibold active:scale-95 cursor-pointer select-none text-lg flex items-center gap-2">
-                    No, it isn&apos;s
+                    No, it isn&apos;t
                     <span>
                         <FaTimes className="text-white text-sm sm:block hidden" />
                     </span>

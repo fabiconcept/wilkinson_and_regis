@@ -122,8 +122,10 @@ export default function Step03() {
                     type="text" 
                     onChange={(e)=>setFirstName(e.target.value)}
                     max={40}
+                    name="fname"
                     maxLength={40}
                     value={firstName}
+                    required
                     className={`px-3 py-2 w-full  outline-none bg-transparent ${generalInformationError[0].firstName !== null ? generalInformationError[0].firstName ? "border-2 border-red-500" : "border border-green-500" : "border border-black"}`}
                 />
                 <span className="text-right">{String(firstName).length}/40</span>
@@ -134,7 +136,9 @@ export default function Step03() {
                     onChange={(e)=>setLastName(e.target.value)}
                     max={40}
                     maxLength={40}
+                    name="lname"
                     value={lastName}
+                    required
                     type="text" 
                     className={`px-3 py-2 w-full  outline-none bg-transparent ${generalInformationError[0].lastName !== null ? generalInformationError[0].lastName ? "border-2 border-red-500" : "border border-green-500" : "border border-black"}`}
                 />
@@ -145,7 +149,9 @@ export default function Step03() {
                 <input 
                     onChange={(e)=>setEmail(e.target.value)}
                     value={email}
+                    required
                     type="email" 
+                    name="from_email"
                     className={`px-3 py-2 w-full  outline-none bg-transparent ${generalInformationError[0].email !== null ? generalInformationError[0].email ? "border-2 border-red-500" : "border border-green-500" : "border border-black"}`}
                 />
             </div>
