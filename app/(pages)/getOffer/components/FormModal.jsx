@@ -13,7 +13,7 @@ export const FormModalContext = React.createContext();
 
 export default function FormModal() {
     const { removeCookie } = useCookies();
-    const { setModalOpen } = useContext(screenContext);
+    const { setModalOpen, coordinates, addressText } = useContext(screenContext);
     const submitRef = useRef(null);
     const [currentPage, setCurrentPage] = useState(0);
     const [canProceed, setCanProceed] = useState(false);
@@ -161,6 +161,8 @@ export default function FormModal() {
                         <Step03 />
                         <Step04 />
                         <Finish />
+                        <input type="hidden" name="address" value={addressText} required/>
+                        <input type="hidden" name="lng_lat" value={coordinates} required/>
                         {canSubmit && <button type="submit" ref={submitRef} hidden></button>}
                     </form>
 
