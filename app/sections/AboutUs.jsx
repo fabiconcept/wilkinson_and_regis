@@ -52,7 +52,7 @@ export default function AboutUs() {
                         <span>
                             Meet <span className="text-primary-light">Vin Wilkinson</span>, an entrepreneur rooted in Atlanta with over eight years experience in real estate
                             acquisitions and investments. Vin has seamlessly shifted his expertise into the world of connecting
-                            people and creating valuable investment opportunities.His experience allows him to see beyond the
+                            people and creating valuable investment opportunities. His experience allows him to see beyond the
                             numbers and produce extraordinary results. Beyond the business front, Vin enjoys exploring
                             Atlanta&apos;s diverse culinary scene, attending local performances, and passionately supporting the
                             Falcons, Braves, and Hawks. His philosophy isn&apos;t just about transactions; he&apos;s about fostering

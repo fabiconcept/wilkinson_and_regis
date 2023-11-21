@@ -3,7 +3,7 @@ import Search from "./components/Search";
 
 export default function HeroSection() {
     return (
-        <div className="w-full md:px-24 sm:px-12 px-3 sm:pt-56 pt-40 grid sm:grid-cols-2 sm:gap-0 gap-6 grid-cols-1 relative" id="top">
+        <div className="w-full md:px-24 sm:px-12 px-3 sm:pt-56 pt-40 grid sm:grid-cols-2 sm:gap-0 gap-6 grid-cols-1 relative" id="topSection">
             <div className="absolute top-0 left-0 h-full object-cover w-full grid place-items-center overflow-hidden">
                 <Image
                     src={"https://sanydelw.sirv.com/Images/naomi-hebert-MP0bgaS_d1c-unsplash.jpg"}
